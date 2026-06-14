@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SearchSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SearchTest1(failed)">
+    <parameter name="BrowserURL" value="https://www.google.com/"/>
+    <classes>
+      <class name="parameter_TestNG.GoogleSearch">
+        <parameter name="Searchvalue" value="Selenium"/>
+        <methods>
+          <include name="testclose"/>
+          <include name="search"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- parameter_TestNG.GoogleSearch -->
+    </classes>
+  </test> <!-- SearchTest1(failed) -->
+  <test thread-count="5" name="SearchTest2(failed)">
+    <parameter name="BrowserURL" value="https://www.google.com/"/>
+    <classes>
+      <class name="parameter_TestNG.GoogleSearch">
+        <parameter name="Searchvalue" value="Java"/>
+        <methods>
+          <include name="testclose"/>
+          <include name="search"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- parameter_TestNG.GoogleSearch -->
+    </classes>
+  </test> <!-- SearchTest2(failed) -->
+</suite> <!-- Failed suite [SearchSuite] -->

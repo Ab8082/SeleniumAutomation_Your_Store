@@ -1,0 +1,7 @@
+[INFO ] 2026-05-27 13:48:46.431 [main] LoggerClass - Browser is launching
+[INFO ] 2026-05-27 13:48:49.979 [main] LoggerClass - user is able to launching
+[ERROR] 2026-05-27 13:48:49.981 [main] LoggerClass - This is error response code
+[FATAL] 2026-05-27 13:48:49.981 [main] LoggerClass - This is fatal response code
+[DEBUG] 2026-05-27 13:48:49.981 [main] LoggerClass - This is debug related response code
+[WARN ] 2026-05-27 13:48:49.984 [main] LoggerClass - This is Warn related response code
+[INFO ] 2026-05-27 13:48:50.419 [main] LoggerClass - This is closing of browser
